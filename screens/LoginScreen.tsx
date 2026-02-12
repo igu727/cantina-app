@@ -6,7 +6,7 @@ export default function LoginScreen() {
     const [senha, setSenha] = useState('')
     return(
         <View style={styles.container}>
-            <Text>Usuário{email}</Text>
+            <Text>Email{email}</Text>
             <TextInput placeholder="Digite seu email" onChangeText={(e) => setEmail(e)}></TextInput>
             <Text>Senha {senha}</Text>
             <TextInput placeholder="Informe sua senha" onChangeText={(e) => setSenha(e)}></TextInput>
